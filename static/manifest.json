@@ -1,0 +1,15 @@
+{
+  "background_color": "#ffffff",
+  "theme_color": "#333333",
+  "name": "Mona Botros",
+  "short_name": "Mona Botros",
+  "display": "minimal-ui",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg"
+    }
+  ]
+}

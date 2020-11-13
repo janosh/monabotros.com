@@ -1,0 +1,31 @@
+<script>
+  import MapEmbed from 'components/MapEmbed.svelte'
+  import { title } from './stores'
+
+  $title = `Kontakt`
+</script>
+
+<div>
+
+<h1>{$title}</h1>
+
+👩‍💻 Mona Botros
+
+📍 [Klarenstrecker Damm 8 | 21684 Stade](https://goo.gl/maps/ScGvt)
+
+✉️ <pacificspotlight@gmail.com>
+
+📞 [+49 160 9661 9662](tel:4916096619662)
+
+<br />
+
+<MapEmbed place="Klarenstrecker Damm 8, Stade" title="Kontaktadresse" />
+
+</div>
+
+<style>
+  div {
+    max-width: 40em;
+    margin: auto;
+  }
+</style>

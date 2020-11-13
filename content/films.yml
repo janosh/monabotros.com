@@ -1,0 +1,483 @@
+- title: Aktuell BW - Kirchengipfel
+  slug: bw-kirchengipfel
+  img: images/films/suenden-saengerknaben.jpg
+  date: 2019-02-21
+  channel: SWR
+  tag: Dokumentation
+  collaborator: Thomas Schneider
+  url:
+  relatedPress:
+  md: |
+
+- title: Aktuell RP - Kirchengipfel
+  slug: rp-kirchengipfel
+  img: images/films/suenden-saengerknaben.jpg
+  date: 2019-02-21
+  channel: SWR
+  tag: Dokumentation
+  url:
+  md: |
+
+- title: Schuld ohne Sühne
+  slug: schuld
+  img: images/films/suenden-saengerknaben.jpg
+  tag: Dokumentation
+  channel: SWR
+  date: 2019-02-18
+  videoUrl: https://youtu.be/vCABgAVXw8c
+  videoId: youtube:vCABgAVXw8c
+  relatedPress: schuld-mk
+  md: |
+
+- title: Update Missbrauchsfälle Korntal
+  slug: update-korntal
+  img: images/films/kinderarbeit-korntal.png
+  date: 2018-09-30
+  channel: SWR
+  tag: Dokumentation
+  url:
+  md: |
+
+- title: Kinderarbeit im Korntal
+  slug: kinderarbeit-korntal
+  img: images/films/kinderarbeit-korntal.png
+  date: 2018-08-14
+  channel: SWR
+  tag: Dokumentation
+  url:
+  md: |
+
+- title: Die Todesfahrt des ICE 884
+  slug: todesfahrt
+  img: images/films/todesfahrt.jpg
+  channel: ZDF
+  date: 1999-06-03
+  award: Norminiert für Deutscher Fernsehpreis in Beste Dokumentation/Bester Dokumentarfilm
+  tag: Dokumentation
+  videoUrl: https://vimeo.com/273672950
+  videoId: vimeo:273672950
+  relatedPress: todesfahrt-bz, todesfahrt-noz
+  md: |
+
+- title: Wie viele Flüchtlinge verträgt Deutschland?
+  slug: fluechtlinge-deutschland
+  img: images/films/fluechtlinge-deutschland.jpg
+  channel: ZDF
+  date: 2015-11-10
+  tag: Dokumentation
+  videoUrl: https://youtu.be/2SGQ37FziGc
+  videoId: youtube:2SGQ37FziGc
+  relatedPress: fluechtlinge-deutschland-bm
+  md: |
+    Der große Ansturm und die Folgen
+    ZDF Mediathek: Wie viele Flüchtlinge verträgt Deutschland? / Eine erste Zwischenbilanz
+    morgenpost.de: 45 Minuten im ZDF / Wie viele Flüchtlinge verträgt das Land?
+    ZDF.de: Wie viele Flüchtlinge verträgt Deutschland? / Der große Ansturm und die Folgen
+    Aktuelle Pressemitteilung: Bundesinnenminister in "ZDFzeit"-Doku / "Wie viele Flüchtlinge verträgt Deutschland?": "Wir müssen die Zahl begrenzen"
+    Hintergrund zur Dokumentation: Wie viele Flüchtlinge verträgt Deutschland? / ZDF.reportage und ZDFzeit zu Zuflucht und Ansturm
+
+- title: Drohnenkrieg - Tod aus der Luft
+  slug: drohnenkrieg
+  img: images/films/drohnenkrieg.jpg
+  channel: ZDF
+  date: 2015-07-27
+  tag: Dokumentation
+  videoUrl: https://youtu.be/nI2gwDzhcSg
+  videoId: youtube:nI2gwDzhcSg
+  relatedPress: drohnenkrieg-west, drohnenkrieg-fr
+  md: |
+    Youtube/ZDF: Drohnenkrieg – Tod aus der Luft
+    ZDF.de: Drohnenkrieg – Tod aus der Luft
+
+    Weitere Informationen
+
+    BILD.de: So krass ist der Drohnenkrieg
+    fr-online.de: TV-Kritik: "Drohnenkrieg – Tod aus der Luft" / „Veränderte Bedrohungslage“?
+    derwesten.de: Drohnenkrieg - So funktioniert der Tod auf Knopfdruck
+
+- title: Ein Bild spricht 1000 Worte
+  slug: 1000-worte
+  img: images/films/1000-worte.jpg
+  date:
+  channel:
+  tag: Wissenschaft
+  url:
+  md: |
+    Just images
+
+- title: Kaltwasserkorallen - Bedrohte Juwelen der Tiefsee
+  slug: kaltwasserkorallen
+  img: images/films/kaltwasserkorallen.jpg
+  date: 2010-01-01
+  channel: IFM-GEOMAR
+  tag: Wissenschaft
+  videoUrl: https://vimeo.com/139573753
+  videoId: vimeo:139573753
+  md: |
+    Englische Version: https://vimeo.com/139218339
+
+- title: Sünden an den Sängerknaben
+  slug: suenden-saengerknaben
+  img: images/films/suenden-saengerknaben.jpg
+  date: 2015-01-07
+  channel: SWR
+  tag: Dokumentation
+  videoUrl: https://youtu.be/kFglRVYeLY8
+  videoId: youtube:kFglRVYeLY8
+  elatedPress: suenden-saengerknaben-br, suenden-saengerknaben-noz
+  md: |
+
+- title: Meerwissen von der Tiefsee zur Atmosphäre
+  slug: meerwissen-tiefsee
+  img: images/films/meerwissen-tiefsee.jpg
+  date: 2007-01-01
+  channel: IFM-GEOMAR
+  tag: Wissenschaft
+  url:
+  award: intermedia-Globe SILVER
+  md: |
+    Englisch: https://vimeo.com/138597051
+
+- title: Auf Tauchfahrt – Wie gesund sind unsere Meere?
+  slug: auf-tauchfahrt
+  img: images/films/auf-tauchfahrt.jpg
+  date: 2011-11-22
+  channel: WDR
+  tag: Dokumentation
+  url:
+  md: |
+
+- title: Wo das Leben beginnt - Erlebnisse auf einer Geburtsstation
+  slug: leben-beginnt
+  img: images/films/leben-beginnt.jpg
+  date:
+  channel: RTL
+  tag: Dokumentation
+  videoUrl: https://vimeo.com/137814680
+  videoId: vimeo:137814680
+  md: |
+
+- title: Die Seelenfänger - Wie Scientology Menschenleben zerstört
+  slug: seelenfaenger
+  img: images/films/seelenfaenger.jpg
+  date: 2011-04-01
+  channel: SWR
+  tag: Dokumentation
+  videoUrl: https://youtu.be/RhbAaNx016E
+  videoId: youtube:RhbAaNx016E
+  md: |
+    [Die Seelenfänger - Teil I](https://youtu.be/RhbAaNx016E)
+    [Die Seelenfänger - Teil II](https://youtu.be/ojlTTOYFu-g)
+    [Die Seelenfänger - Teil III](https://youtu.be/aFsZieZedIE)
+    [Die Seelenfänger - Teil IV](https://youtu.be/RbHuB4R9VPg)
+    [Die Seelenfänger - Teil V](https://youtu.be/-RqQmK8k4uA)
+
+- title: Blueprint for Disaster - The Crash at Eschede
+  slug: crash-eschede
+  img: images/films/todesfahrt.jpg
+  date: 1998-06-03
+  channel: DISCOVERY Channel Canada
+  tag: Mitarbeit
+  url:
+  md: |
+
+- title: Blueprint for disaster - The Inferno of Kaprun
+  slug: inferno-kaprun
+  img: images/films/inferno-kaprun.jpg
+  date: 2000-11-11
+  channel: DISCOVERY Channel Canada
+  tag: Mitarbeit
+  url:
+  md: |
+
+- title: Tod im Schnee - Die Jahrhundertlawine von Galtür
+  slug: tod-schnee
+  img: images/films/tod-schnee.png
+  date: 2000-01-14
+  channel: ZDF/Arte
+  tag: Dokumentation
+  videoUrl: https://vimeo.com/137814487
+  videoId: vimeo:137814487
+  md: |
+
+- title: Gesucht wird… - die Schlangenbande
+  slug: schlangenbande
+  img: images/films/schlangenbande.png
+  date: 1998-01-01
+  channel: WDR für die ARD
+  tag: Dokumentation
+  collaborator: Egmont R. Koch
+  videoUrl: https://vimeo.com/138596396
+  videoId: vimeo:138596396
+  relatedPress: schlangenbande-gong
+  md: |
+
+- title: 50 Jahre Bild - Eine Zeitung bewegt Deutschland
+  slug: bild50
+  img: images/films/bild50.jpg
+  date: 2002-06-07
+  channel: ZDF/Arte
+  tag: Dokumentation
+  videoUrl: https://vimeo.com/137812851
+  videoId: vimeo:137812851
+  relatedPress: bild50-fr, bild50-ts
+  md: |
+    Ganzes Video: https://www.dailymotion.com/video/x23xzwe
+
+- title: Schampus, Koks und schnelle Pferde
+  slug: schnelle-pferde
+  img: images/films/schnelle-pferde.jpg
+  date: 2004-12-16
+  channel: ZDF/Arte
+  tag: Dokumentation
+  collaborator: Egmont R. Koch
+  videoUrl: https://vimeo.com/138596296
+  videoId: vimeo:138596296
+  md: |
+
+- title: Die Angst fliegt mit - Flugsicherheit im Abwind
+  slug: angst-fliegt
+  img: images/films/angst-fliegt.png
+  date:
+  channel: ZDF
+  tag: Dokumentation
+  videoUrl: https://vimeo.com/137812988
+  videoId: vimeo:137812988
+  relatedPress: angst-fliegt-wz
+  md: |
+
+- title: Abenteuer Geburt
+  slug: abenteuer-geburt
+  img: images/films/abenteuer-geburt.jpg
+  date:
+  channel: NDR
+  tag: Dokumentation
+  url:
+  md: |
+
+- title: Gesucht wird… - die Dunkle Seite von Scientology
+  slug: scientology
+  img: images/films/scientology.jpg
+  date: 1997-01-01
+  channel: ARD (WDR)
+  tag: Dokumentation
+  videoUrl: https://vimeo.com/137814838
+  videoId: vimeo:137814838
+  collaborator: Egmont R. Koch
+  relatedPress: scientology-gong
+  md: |
+
+- title: Tod eines Junkies - Die Geschichte einer Drogentherapie
+  slug: tod-junkie
+  img: images/films/tod-junkie.jpg
+  date:
+  channel: Spiegel TV Reportage
+  tag: Dokumentation
+  url:
+  md: |
+
+- title: Sexuelle Belästigung
+  slug: belaestigung
+  img: images/films/sexuelle-belästigung.jpg
+  date: 2018-01-30
+  channel: SWR
+  tag: Report Mainz
+  collaborator: Manuela Dursun
+  url:
+  md: |
+    Authorengespräch: https://youtu.be/1pcMVuujW5w
+    1. Beitrag: https://youtu.be/i5gLCXsNq1s
+
+- title: Domspatzen neue Vorwürfe
+  slug: domspatzen-neu
+  img: images/films/suenden-saengerknaben.jpg
+  date: 2018-03-20
+  channel: SWR
+  tag: Report Mainz
+  collaborator: Achim Reinhardt
+  videoUrl: https://youtu.be/wtnHANz0s-U
+  videoId: youtube:wtnHANz0s-U
+  md: |
+
+- title: Bezahlbarer Wohnraum
+  slug: bezahlbarer-wohnraum
+  img: images/films/bezahlbarer-wohnraum.png
+  date: 2018-04-10
+  channel: SWR
+  tag: Report Mainz
+  collaborator: Marcus Weller, Uli Neumann
+  videoUrl: https://youtu.be/hNI5zw2kMfU
+  videoId: youtube:hNI5zw2kMfU
+  md: |
+
+- title: Krankentransporte
+  slug: krankentransporte
+  img: images/films/mainz.jpg
+  date: 2018-06-12
+  channel: SWR
+  tag: Report Mainz
+  collaborator: Marius Meyer
+  url:
+  md: |
+
+- title: Intensivtäter
+  slug: intensivtäter
+  img: images/films/mainz.jpg
+  date: 2018-06-12
+  channel: SWR
+  tag: Report Mainz
+  collaborator:
+  url:
+  md: |
+    redaktionelle Mitarbeit
+
+- title: Kinderarbeit in Korntal
+  slug: kinderarbeit-korntal
+  img: images/films/kinderarbeit-korntal.png
+  date: 2018-08-14
+  channel: SWR
+  tag: Report Mainz
+  collaborator:
+  videoUrl: https://www.swr.de/report/ausgebeutete-kinder-neue-vorwuerfe-gegen-die-bruedergemeinde-korntal/-/id=233454/did=22231810/nid=233454/1wljzcr/index.html
+  videoId: wwwswr:de/report/ausgebeutete-kinder-neue-vorwuerfe-gegen-die-bruedergemeinde-korntal/-/id=233454/did=22231810/nid=233454/1wljzcr/index.html
+  md: |
+
+- title: Fehlende Organspende
+  slug: fehlende-organspende
+  img: images/films/mainz.jpg
+  date: 2018-08-14
+  channel: SWR
+  tag: Report Mainz
+  collaborator:
+  url:
+  md: |
+    redaktionelle Mitarbeit
+
+- title: Brennende ICEs
+  slug: brennende-ices
+  img: images/films/mainz.jpg
+  date: 2018-11-06
+  channel: SWR
+  tag: Report Mainz
+  collaborator: Marius Meyer, Anna-Lara Weidinger (Volo)
+  url:
+  md: |
+
+- title: Israelische Drohnen
+  slug: israelische-drohnen
+  img: images/films/israelische-drohnen.png
+  date: 2018-11-06
+  channel: SWR
+  tag: Report Mainz
+  collaborator:
+  videoUrl: https://youtu.be/ZlkpI57LUpw
+  videoId: youtube:ZlkpI57LUpw
+  md: |
+
+- title: Montagspost
+  slug: montagspost
+  img: images/films/mainz.jpg
+  date: 2018-12-18
+  channel: SWR
+  tag: Report Mainz
+  collaborator: Marius Meyer & Judith Brosel (Volo)
+  url:
+  md: |
+
+- title: Missbrauchsakten
+  slug: missbrauchsakten
+  img: images/films/mainz.jpg
+  date: 2019-04-09
+  channel: SWR
+  tag: Report Mainz
+  collaborator: Thomas Schneider
+  url:
+  md: |
+
+- title: Personalmangel bei der Bahn
+  slug: personalmangel-bahn
+  img: images/films/personalmangel-bahn.png
+  date: 2019-05-07
+  channel: SWR
+  tag: Report Mainz
+  collaborator: Hoffmann, Reichert, Neumann
+  videoUrl: https://youtu.be/Wf72g32B1s4
+  videoId: youtube:Wf72g32B1s4
+  md: |
+    Authorengespräch: https://youtu.be/2vT_YleOSQ8
+
+- title: Lokalanästhetika
+  slug: lokalanaaesthetika
+  img: images/films/lokalanaaesthetika.png
+  date: 2019-05-28
+  channel: SWR
+  tag: Report Mainz
+  collaborator: Kirsten Traumnau
+  videoUrl: https://youtu.be/lO5eqleM96E
+  videoId: youtube:lO5eqleM96E
+  md: |
+
+- title: Der Fall Lübcke
+  slug: luebcke
+  img: images/films/luebcke.png
+  date: 2019-06-18
+  channel: SWR
+  tag: Report Mainz
+  collaborator: Beres, Brosel, Bühler, Meyer, Neumann, Reichert, Schader
+  videoUrl: https://youtu.be/3ch5wcQ_914
+  videoId: youtube:3ch5wcQ_914
+  md: |
+
+- title: Mietstrom
+  slug: mietstrom
+  img: images/films/mietstrom.png
+  date: 2019-08-20
+  channel: SWR
+  tag: Report Mainz
+  collaborator: Volo Magdalena Ebertz
+  videoUrl: https://youtu.be/EDiiGNJ3VR8
+  videoId: youtube:EDiiGNJ3VR8
+  md: |
+
+- title: Überstunden in der Gastronomie
+  slug: ueberstunden-gastronomie
+  img: images/films/ueberstunden-gastronomie.png
+  date: 2019-10-01
+  channel: SWR
+  tag: Report Mainz
+  collaborator:
+  videoUrl: https://youtu.be/ZKAk7sK98DI
+  videoId: youtube:ZKAk7sK98DI
+  md: |
+
+- title: Klimapropheten
+  slug: klimapropheten
+  img: images/films/mainz.jpg
+  date: 2019-10-01
+  channel: SWR
+  tag: Report Mainz
+  collaborator:
+  url:
+  md: |
+
+- title: Lebensmittelzertifikate
+  slug: lebensmittelzertifikate
+  img: images/films/lebensmittelzertifikate.png
+  date: 2019-11-12
+  channel: SWR
+  tag: Report Mainz
+  collaborator: Philipp Reichert, Donna Doerbeck
+  videoUrl: https://youtu.be/_7eCEn8sdaU
+  videoId: youtube:_7eCEn8sdaU
+  md: |
+
+- title: Klimasubventionen
+  slug: klimasubventionen
+  img: images/films/mainz.jpg
+  date: 2019-12-03
+  channel: SWR
+  tag: Report Mainz
+  collaborator: Monika Anthes, Marius Meyer
+  videoUrl: https://youtu.be/2_GCiuEKTmc
+  videoId: youtube:2_GCiuEKTmc
+  md: |

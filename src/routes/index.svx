@@ -1,0 +1,102 @@
+<script>
+  import VideoEmbed from '../components/VideoEmbed.svelte'
+  import Cards from '../components/Cards.svelte'
+  import { title } from './stores'
+  import press from 'content/press.yml'
+  import films from 'content/films.yml'
+  import articles from 'content/articles.yml'
+
+  $title = 'Filme. Fakten. Emotionen.'
+
+  const cards = [
+    { title: `Filme`, slug: `films`, color: `orange`, data: films.slice(0,3) },
+    { title: `Artikel`, slug: `articles`, color: `teal`, data: articles.slice(0,3) },
+    { title: `Pressestimmen`, slug: `press`, color: `#03a9f4`, data: press.slice(0,3) },
+  ]
+</script>
+
+<div>
+
+<h1>{$title}</h1>
+
+<VideoEmbed videoId="vimeo:137169504" />
+
+<Cards {cards} />
+
+## Stationen
+
+Meine berufliche Laufbahn begann mit einem naturwissenschaftlichen Studium an den Universitäten Queen’s und Dalhousie in Kanada. Nach einem Bachelor’s in Geologie im kanadischen Halifax folgte ein Wechsel quer über den Kontinent an die amerikanische Westküste in Seattle. Während der „Graduate Studies“ in Ozeanographie nahm ich an mehreren Forschungsexpeditionen in den Nordpazifik teil, darunter die spektakuläre Entdeckung von heißen Quellen entlang der Explorer Ridge mit dem bemannten Tauchboot „Pisces IV“ In über 2000 Metern Tiefe spürten wir ein märchenhaftes Ökosystem fernab jeden Sonnenstrahls auf. ([Paper: Hydrothermal vents of Explorer Ridge, northeast Pacific](http://www.sciencedirect.com/science/article/pii/0198014986901007))
+
+<figure>
+  <img src="images/mona.jpg" alt="Portrait Mona Botros" />
+  <figcaption>
+    Mona Botros: Filmemacherin & Journalistin
+  </figcaption>
+</figure>
+
+Nach dem Master’s Studium an der University of Washington gab es erneut einen Sprung an die Ostküste der USA. Von Rhode Island aus nahm ich Forschungsarbeiten am mittelozeanischen Rücken im Atlantik auf. Mit der Zeit wuchs jedoch der Wunsch, das Gelernte für eine breitere Öffentlichkeit anzuwenden und so folgte ein Wechsel nach Deutschland und ein Studium der Journalistik an der Hochschule für Musik und Theater in Hannover.
+
+Nach dem Diplom arbeitete ich als Autorin für „Spiegel TV-Reportage“ und „Spiegel TV-Magazin“ in Hamburg bis sich die Chance ergab, als Redakteurin bei der Gestaltung des neuen SAT.1-Politmagazins „Akut“ mitzuwirken. Eine zunehmende Leidenschaft für längere Filmformate und investigative Recherchen führte schließlich zu einer selbständigen Tätigkeit als Journalistin und Filmemacherin, zeitweilig auch in Kalifornien. In den Folgejahren entstand eine Reihe von Reportagen und Dokumentationen unter anderem für das ZDF, NDR, WDR, SWR und Arte und Artikel für Spiegel Online, die Welt, die Kieler Nachrichten und die Süddeutsche Zeitung. Seit Anfang 2018 berichte ich für das ARD-Politikmagazin REPORT MAINZ beim Südwestrundfunk.
+
+**Weitere Informationen über meine Arbeit:** &emsp;
+[Filme](/films) - [Artikel](/articles) - [Pressestimmen](/press)
+
+## Studium
+
+### 1983
+
+Bachelor of Science (Honours) in Geologie, [Dalhousie University, Halifax, Kanada](https://dal.ca/faculty/science/earth-sciences/alumni_friends/alumni_by_year/class_of_1983/1983_alumni11.html)
+
+### 1986
+
+Master of Science (M.Sc.), geologische Ozeanographie, [University of Washington, Seattle, USA](https://ui.adsabs.harvard.edu/abs/1988JGR....9310421B/abstract)
+
+### 1990
+
+Diplom-Journalistin „Naturwissenschaften, Medizin und Technik“, [Hochschule für Musik und Theater, Hannover](https://www.ijk.hmtm-hannover.de/de/druckansicht/forschung/abschlussarbeiten/fruehere-abschlussarbeiten/ergaenzungsstudiengang-journalistik)
+
+## Auszeichnungen
+
+### 2007: Intermedia-Globe-Silver
+
+[Filmpreis für „Meerwissen von der Tiefsee zur Atmosphäre“, Kategorie „Public Relations: Research and Science“](http://www.scinexx.de/wissen-aktuell-6490-2007-05-09.html)
+
+### 1999: Deutscher Fernsehpreis
+
+[Nominierung Beste Dokumentation für „Die Todesfahrt des ICE 884“ (ZDF)](https://www.deutscher-fernsehpreis.de/content/Archiv_1999_Preistraeger.pdf)
+
+### 1997: Der Goldene Gong
+
+[Fernsehpreis für „Gesucht wird… die dunkle Seite von Scientology“ (ARD)](https://de.wikipedia.org/w/index.php?title=Goldener_Gong&stable=0&shownotice=1&fromsection=1997#1997)
+
+### 1988: DAAD
+
+[Deutscher Akademischer Austauschdienst (2 Jahre Vollstipendium)](https://www.daad.de/der-daad/unsere-mission/de/29149-stipendien-fuer-die-besten/)
+
+### 1985: NSERC
+
+[Natural Sciences and Engineering Research Council of Canada (3 Jahre Vollstipendium)](http://www.nserc-crsng.gc.ca/NSERC-CRSNG/values-valeurs_eng.asp)
+
+## Mitgliedschaft
+
+### Ich bin Mitglied bei [netzwerk recherche](https://netzwerkrecherche.org) und [hostwriter](http://hostwriter.org)
+
+</div>
+
+<style>
+  div {
+    max-width: 45em;
+    margin: auto;
+  }
+  figure img {
+    float: left;
+    width: 362px;
+    border-radius: 4pt;
+  }
+  figure {
+    float: left;
+    width: 400px;
+    margin: 0;
+    margin: 1em 2em 1em 0;
+  }
+</style>

@@ -1,0 +1,20 @@
+<script>
+  import { title } from './stores'
+
+  $title = `Impressum`
+</script>
+
+<div>
+
+<h1>{$title}</h1>
+
+Diese Seite verwendet Google Analytics. Sie ist [open source](https://github.com/janosh/monabotros.com) und wurde von Janosh Riebesell und Florian Kleinicke erstellt. Technische Fragen an <janosh.riebesell@gmail.com>.
+
+</div>
+
+<style>
+  div {
+    max-width: 40em;
+    margin: auto;
+  }
+</style>
