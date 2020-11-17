@@ -20,6 +20,7 @@
   a {
     text-decoration: none;
     transition: 0.4s;
+    border-bottom: 3px solid transparent;
   }
   a:not(:first-child) {
     font-weight: lighter;

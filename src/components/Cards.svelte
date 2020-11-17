@@ -3,18 +3,20 @@
 </script>
 
 <div class="cards">
-  {#each cards as { title, slug, color, data }}
+  {#each cards as { title, slug, color, items }}
     <div class="card" style="background: {color};">
       <a href={slug}>
         <h2>{title}</h2>
       </a>
-      {#each data as { slug, title }}
-        <a href={slug}>
-          <h3>
-            &bull;
-            {@html title.split(` `).splice(0, 5).join(` `) + `&hellip;`}
-          </h3>
-        </a>
+      {#each items as { slug, title, img }}
+        <div class="item">
+          {#if img}<a href={slug}><img src={img} alt={title} /></a>{/if}
+          <a href={slug}>
+            <h3>
+              {@html title.split(` `).splice(0, 8).join(` `) + `&hellip;`}
+            </h3>
+          </a>
+        </div>
       {/each}
     </div>
   {/each}
@@ -37,6 +39,9 @@
     border-radius: 4pt;
     transition: 0.5s;
   }
+  h2 {
+    margin: 5pt 0 1ex;
+  }
   .card a {
     color: white;
   }
@@ -46,7 +51,18 @@
   .card:hover {
     transform: scale(1.01);
   }
+  .item {
+    display: flex;
+    margin-top: 1ex;
+    padding-top: 1ex;
+    border-top: 1px dotted white;
+  }
   h3 {
     font-size: 1.4ex;
+    margin: 0;
+  }
+  img {
+    width: 4em;
+    margin-right: 1em;
   }
 </style>

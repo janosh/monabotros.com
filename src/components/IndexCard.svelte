@@ -1,16 +1,13 @@
 <script>
-  export let item
-
   import { reduceMeta } from '../utils'
-  import LazyImg from './LazyImg.svelte'
+
+  export let item
 
   const { title, slug, date, img, channel, tag, excerpt } = item
 </script>
 
 <div class="item">
-  {#if img}
-    <a href={slug}><LazyImg src={img} alt={title} style="border-radius: 4px;" /></a>
-  {/if}
+  {#if img}<a href={slug}><img src={img} alt={title} loading="lazy" /></a>{/if}
   <a href={slug}><h2>{title}</h2></a>
   <p>{reduceMeta(date, channel, tag)}</p>
   {#if excerpt}
@@ -38,5 +35,9 @@
   }
   p.excerpt {
     padding-top: 1em;
+  }
+  img {
+    width: 100%;
+    border-radius: 4px;
   }
 </style>

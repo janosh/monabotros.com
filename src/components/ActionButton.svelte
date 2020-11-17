@@ -5,6 +5,7 @@
   export let direction = `up`
   export let size = 40
   export let options = []
+  export let title = ``
   let sign = direction === `down` ? -1 : 1
   let open = false
 
@@ -48,6 +49,7 @@
   <button
     on:click={toggle}
     class="toggle"
+    {title}
     style="transform: rotate({$angle}rad); width: {size}px; height: {size}px;">
     <span style="transform: scale({size / 10});">+</span></button>
 </div>

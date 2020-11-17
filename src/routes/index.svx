@@ -9,9 +9,9 @@
   $title = 'Filme. Fakten. Emotionen.'
 
   const cards = [
-    { title: `Filme`, slug: `films`, color: `orange`, data: films.slice(0,3) },
-    { title: `Artikel`, slug: `articles`, color: `teal`, data: articles.slice(0,3) },
-    { title: `Pressestimmen`, slug: `press`, color: `#03a9f4`, data: press.slice(0,3) },
+    { title: `Filme`, slug: `films`, color: `orange`, items: films.slice(0,3) },
+    { title: `Artikel`, slug: `articles`, color: `teal`, items: articles.slice(0,3) },
+    { title: `Pressestimmen`, slug: `press`, color: `#03a9f4`, items: press.slice(0,3) },
   ]
 </script>
 

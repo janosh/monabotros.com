@@ -36,7 +36,7 @@
   const script = `<script>window.addEventListener('DOMContentLoaded', ${boundFn})<\/script>`
 </script>
 
-<ActionButton direction="down" options={colorModes} size="30" />
+<ActionButton direction="down" options={colorModes} size="30" title="Color Mode" />
 
 <svelte:head>
   {@html script}

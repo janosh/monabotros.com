@@ -34,7 +34,7 @@
   }
 </script>
 
-<button on:click={() => (open = true)}>
+<button on:click={() => (open = true)} title="Search">
   <Search alt="Search Icon" />
 </button>
 {#if open}
