@@ -1,7 +1,6 @@
 <script>
   import ButtonFilter from 'components/ButtonFilter.svelte'
   import IndexCard from 'components/IndexCard.svelte'
-  import Masonry from 'components/Masonry.svelte'
   import articles from 'content/articles.yml'
   import { title } from '../stores'
   let publisher
@@ -20,6 +19,16 @@
   bind:selected={publisher}
   init="Alle" />
 
-<Masonry items={filteredArticles} let:item>
-  <IndexCard {item} />
-</Masonry>
+<div class="grid">
+  {#each filteredArticles as item}
+    <IndexCard {item} />
+  {/each}
+</div>
+
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+    gap: 1em;
+  }
+</style>

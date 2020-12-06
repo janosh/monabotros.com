@@ -24,7 +24,6 @@
     padding-bottom: 1ex;
     border-radius: 1ex;
     display: grid;
-    height: max-content;
   }
   div > :not(:first-child) {
     margin: 0 0.5em;

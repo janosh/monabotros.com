@@ -1,7 +1,6 @@
 <script>
   import ButtonFilter from 'components/ButtonFilter.svelte'
   import IndexCard from 'components/IndexCard.svelte'
-  import Masonry from 'components/Masonry.svelte'
   import films from 'content/films.yml'
   import { title } from '../stores'
   let tag
@@ -14,7 +13,16 @@
 <h1>{$title}</h1>
 
 <ButtonFilter labels={tags} labelName="tag" bind:selected={tag} init="Alle" />
+<div class="grid">
+  {#each filteredFilms as item}
+    <IndexCard {item} />
+  {/each}
+</div>
 
-<Masonry items={filteredFilms} let:item>
-  <IndexCard {item} />
-</Masonry>
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+    gap: 1em;
+  }
+</style>
