@@ -37,7 +37,6 @@
   .card {
     padding: 1ex 1em;
     border-radius: 4pt;
-    transition: 0.5s;
   }
   h2 {
     margin: 5pt 0 1ex;
@@ -47,9 +46,6 @@
   }
   .card a:hover {
     color: black;
-  }
-  .card:hover {
-    transform: scale(1.01);
   }
   .item {
     display: flex;
@@ -64,5 +60,9 @@
   img {
     width: 4em;
     margin-right: 1em;
+    transition: 0.5s;
+  }
+  img:hover {
+    transform: scale(1.02);
   }
 </style>

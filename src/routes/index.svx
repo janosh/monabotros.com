@@ -8,16 +8,23 @@
 
   $title = 'Filme. Fakten. Emotionen.'
 
+  const reports = films.filter(itm => itm.tag !== 'Report Mainz').slice(0,3)
+  const magazine = films.filter(itm => itm.tag === 'Report Mainz').slice(0,3)
+
   const cards = [
-    { title: `Filme`, slug: `films`, color: `orange`, items: films.slice(0,3) },
+    { title: `Reportage`, slug: `films`, color: `#03a9f4`, items: reports },
+    { title: `Magazin`, slug: `films?tag=Report Mainz`, color: `orange`, items: magazine },
     { title: `Artikel`, slug: `articles`, color: `teal`, items: articles.slice(0,3) },
-    { title: `Pressestimmen`, slug: `press`, color: `#03a9f4`, items: press.slice(0,3) },
   ]
 </script>
 
 <div>
 
 <h1>{$title}</h1>
+
+Ob es um die Machenschaften von Scientology geht, das Zugunglück von Eschede, Korallenriffe im Nordmeer oder der sexuelle Missbrauch an Kindern bei den Regensburger Domspatzen - aufwändig recherchierte Geschichten verbunden mit emotionalen Interviews führen zu einzigartigen Filmerlebnissen. Die Dokumentationen und Reportagen erzählen die Geschichten hinter den Schlagzeilen, decken Hintergründe auf und zeichnen menschliche Schicksale nach, die unter die Haut gehen.
+
+Auf diesen Seiten können Sie in ganz unterschiedliche Themen eintauchen. Ich freue mich über Ihr Interesse!
 
 <VideoEmbed videoId="vimeo:137169504" />
 
@@ -77,7 +84,7 @@ Diplom-Journalistin „Naturwissenschaften, Medizin und Technik“, [Hochschule 
 
 [Natural Sciences and Engineering Research Council of Canada (3 Jahre Vollstipendium)](http://www.nserc-crsng.gc.ca/NSERC-CRSNG/values-valeurs_eng.asp)
 
-## Mitgliedschaft
+## Mitgliedschaften
 
 ### Ich bin Mitglied bei [netzwerk recherche](https://netzwerkrecherche.org) und [hostwriter](http://hostwriter.org)
 
