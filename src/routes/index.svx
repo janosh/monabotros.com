@@ -2,7 +2,6 @@
   import VideoEmbed from '../components/VideoEmbed.svelte'
   import Cards from '../components/Cards.svelte'
   import { title } from './stores'
-  import press from 'content/press.yml'
   import films from 'content/films.yml'
   import articles from 'content/articles.yml'
 
@@ -46,7 +45,7 @@ Nach dem Master’s Studium an der University of Washington gab es erneut einen 
 Nach dem Diplom arbeitete ich als Autorin für „Spiegel TV-Reportage“ und „Spiegel TV-Magazin“ in Hamburg bis sich die Chance ergab, als Redakteurin bei der Gestaltung des neuen SAT.1-Politmagazins „Akut“ mitzuwirken. Eine zunehmende Leidenschaft für längere Filmformate und investigative Recherchen führte schließlich zu einer selbständigen Tätigkeit als Journalistin und Filmemacherin, zeitweilig auch in Kalifornien. In den Folgejahren entstand eine Reihe von Reportagen und Dokumentationen unter anderem für das ZDF, NDR, WDR, SWR und Arte und Artikel für Spiegel Online, die Welt, die Kieler Nachrichten und die Süddeutsche Zeitung. Seit Anfang 2018 berichte ich für das ARD-Politikmagazin REPORT MAINZ beim Südwestrundfunk.
 
 **Weitere Informationen über meine Arbeit:** &emsp;
-[Filme](/films) - [Artikel](/articles) - [Pressestimmen](/press)
+[Filme](/films) - [Artikel](/articles)
 
 ## Studium
 

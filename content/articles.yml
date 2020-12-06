@@ -71,11 +71,11 @@
 - title: Mehr Lärm im Reich der Fische
   slug: fisch-laerm
   img: images/articles/fisch-laerm.jpg
-  date: 2009-01-17
+  date: 2009-01-16
   publisher: Die Welt
-  url: 404 http://www.welt.de/welt_print/article3041627/Mehr-Laerm-im-Reich-der-Fische.html
+  url: https://welt.de/wissenschaft/article3036863/Infernalischer-Laerm-in-den-Weltmeeren.html
   md: |
-    archive: https://web.archive.org/web/20160324172010/http://www.welt.de/welt_print/article3041627/Mehr-Laerm-im-Reich-der-Fische.html
+    Wissenschaftler berichten von unerwarteten Folgen des Klimawandels: In den Ozeanen wird es immer lauter, weil das Wasser durch die Versauerung zunehmend die Fähigkeit verliert, Schall zu absorbieren. Der wachsende Geräuschpegel schadet aber nicht nur den Meeressäugern, sondern auch den Menschen.
 
 - title: Waldbrände in Kalifornien - Bei Anruf Flucht
   slug: waldbraende
