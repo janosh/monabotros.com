@@ -1017,10 +1017,20 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
+"@svg-icons/entypo@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/entypo/-/entypo-1.1.0.tgz#353b4c286ddced769943aa32e6ace28c88bd294b"
+  integrity sha512-bXd76m711Ct2Ay/zok4WVlYG9gZrhWRykZWQFRS9uHlHY+kfCmREDZxaZOSKLO7s927sOIIq88IAoKi9RoZhbw==
+
 "@svg-icons/fa-solid@^1.22.0":
   version "1.22.0"
   resolved "https://registry.yarnpkg.com/@svg-icons/fa-solid/-/fa-solid-1.22.0.tgz#32f25d728b3a2937f1821077abdc029eb828ea01"
   integrity sha512-BeXWPiIGUX2wCcovQD1kNmGrA++6JB7nFZqwuv7LHoMWCUx9dfYiI/xOhZ7k58PqtG3c8DGAP5zfjaLcSuFYSg==
+
+"@svg-icons/material-sharp@^1.25.0":
+  version "1.25.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/material-sharp/-/material-sharp-1.25.0.tgz#a5a8c5a999a825561dce811946c7806ba6731023"
+  integrity sha512-/hebQM//Fqwjacfi/k7QRQ0eZy1Rb/mZKz8hYedh9siXAxgE6q/nEsT27CZVmWpCsGr1cYYKksJ0e76+UE3hTA==
 
 "@types/estree@*":
   version "0.0.45"
