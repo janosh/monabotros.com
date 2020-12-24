@@ -1011,6 +1011,11 @@
   resolved "https://registry.yarnpkg.com/@svg-icons/entypo/-/entypo-1.1.0.tgz#353b4c286ddced769943aa32e6ace28c88bd294b"
   integrity sha512-bXd76m711Ct2Ay/zok4WVlYG9gZrhWRykZWQFRS9uHlHY+kfCmREDZxaZOSKLO7s927sOIIq88IAoKi9RoZhbw==
 
+"@svg-icons/fa-brands@^1.22.0":
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/@svg-icons/fa-brands/-/fa-brands-1.22.0.tgz#9bf3d90e64f15b1fa60c82784592b0a6c463193c"
+  integrity sha512-xD+dHYCfkkDHqEFu228ciZ1vtY1wbU/tKcz2rWNKLuzuNQOYSf0sIT2BfmpSXgwcxeRXdKixnu6K2PJxbodxrg==
+
 "@svg-icons/fa-solid@^1.22.0":
   version "1.22.0"
   resolved "https://registry.yarnpkg.com/@svg-icons/fa-solid/-/fa-solid-1.22.0.tgz#32f25d728b3a2937f1821077abdc029eb828ea01"

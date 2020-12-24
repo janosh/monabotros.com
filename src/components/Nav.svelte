@@ -1,7 +1,13 @@
 <script>
+  import Filme from '@svg-icons/material-sharp/movie-filter.svg'
+  import Kontakt from '@svg-icons/material-sharp/alternate-email.svg'
+  import Artikel from '@svg-icons/fa-solid/newspaper.svg'
+
   import links from 'content/nav.yml'
   import { stores } from '@sapper/app'
   const { page } = stores()
+
+  const icons = { Filme, Kontakt, Artikel }
 </script>
 
 <nav>
@@ -9,7 +15,9 @@
     <a
       rel="prefetch"
       aria-current={slug === $page.path ? `page` : undefined}
-      href={slug}>{title}</a>
+      href={slug}><svelte:component
+        this={icons[title]}
+        style="height: 22px; vertical-align: -2px; padding-right: 4pt;" />{title}</a>
   {/each}
 </nav>
 
