@@ -6,19 +6,16 @@
 
 <header>
   <Nav />
-  <Search
-    indices={[{ name: `films`, title: `Filme` }, { name: `articles`, title: `Artikel` }, { name: `press`, title: `Pressestimmen` }]}
-    highlightable={[`title`, `excerpt`, `date`, `channel`, `tag`]} />
+  <Search indices={[`Filme`, `Artikel`]} />
   <ColorMode />
 </header>
 
 <style>
   header {
     padding: 4pt 1ex 0;
-    border-bottom: 1px solid var(--borderColor);
     font-size: 1.2em;
     place-content: center;
-    place-items: center;
+    align-items: baseline;
     gap: 2vw;
     white-space: nowrap;
     display: flex;
@@ -26,7 +23,7 @@
     position: sticky;
     top: 0;
     background: var(--bodyBg);
-    box-shadow: 0 -1pt 1ex 0 var(--shadowColor);
+    box-shadow: 0 0 1em black;
     z-index: 2;
   }
 </style>

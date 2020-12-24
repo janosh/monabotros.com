@@ -64,39 +64,4 @@
     font-weight: 200;
     font-size: 1em;
   }
-  main :global(h1):first-child {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: var(--headingColor);
-  }
-  :global(body) {
-    display: grid;
-    min-height: 100vh;
-    grid-template-rows: auto 1fr auto;
-    margin: 0;
-    background: var(--body-bg);
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, 'Helvetica Neue', sans-serif;
-    line-height: 1.5;
-    font-size: calc(1em + 0.5vw);
-    transition: 0.3s;
-    background: var(--bodyBg);
-    color: var(--textColor);
-  }
-  :global(a) {
-    color: var(--linkColor);
-    text-decoration: none;
-  }
-  @media (min-width: 1600px) {
-    :global(body) {
-      font-size: 1.5em;
-    }
-  }
-  :global(button) {
-    padding: 0.3em 0.6em;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    outline: none;
-  }
 </style>

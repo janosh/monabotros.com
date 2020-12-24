@@ -14,7 +14,7 @@
   }
 </script>
 
-<div class="buttons">
+<div>
   {#each labels as label}
     <button on:click={() => changeTag(label)} class={selected === label && `active`}>
       {label}
@@ -23,19 +23,20 @@
 </div>
 
 <style>
-  .buttons {
+  div {
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 1ex;
     place-content: center;
     margin-bottom: 2em;
   }
-  .buttons button {
+  button {
     font-size: 0.8em;
     background: teal;
     color: white;
+    padding: 3pt 1ex;
   }
-  .buttons button.active {
+  button.active {
     background: orange;
   }
 </style>

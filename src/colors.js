@@ -14,7 +14,7 @@ export const modeColors = {
     accentBg: `white`,
     transparentBg: `rgba(255, 255, 255, 0.7)`,
     borderColor: `lightBlue`,
-    shadowColor: `gray`,
+    shadowColor: `rgba(0, 0, 0, 0.1)`,
     headingColor: `teal`,
     darkYellow: `#e9c300`,
   },
