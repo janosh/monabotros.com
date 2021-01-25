@@ -14,7 +14,8 @@
   <span>© 2020 Pacific Spotlight – Journalism & Film</span>
   <div>
     {#each social as { name, url }}
-      <a href={url}><svelte:component
+      <a sapper:prefetch href={url}
+        ><svelte:component
           this={icons[name]}
           style="height: 20px; vertical-align: -2px;" />
         {name}</a>

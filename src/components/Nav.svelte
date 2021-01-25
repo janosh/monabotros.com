@@ -12,10 +12,8 @@
 
 <nav>
   {#each links as { title, slug }}
-    <a
-      rel="prefetch"
-      aria-current={slug === $page.path ? `page` : undefined}
-      href={slug}><svelte:component
+    <a sapper:prefetch aria-current={slug === $page.path ? `page` : undefined} href={slug}
+      ><svelte:component
         this={icons[title]}
         style="height: 22px; vertical-align: -2px; padding-right: 4pt;" />{title}</a>
   {/each}

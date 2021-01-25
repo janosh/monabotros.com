@@ -16,7 +16,8 @@
   <img src="images/pacific-sunset.jpg" alt="Mountains" />
   <h1>
     Pacific Spotlight<br />
-    <hr /><small>Journalism and Film</small>
+    <hr />
+    <small>Journalism and Film</small>
   </h1>
 </hgroup>
 <main>

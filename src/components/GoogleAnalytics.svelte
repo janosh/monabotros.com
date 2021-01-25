@@ -20,7 +20,6 @@
   }
 </script>
 
-<svelte:head>
-  <script async src="https://googletagmanager.com/gtag/js?id={gaId}">
-  </script>
-</svelte:head>
+<svelte:head
+  ><script async src="https://googletagmanager.com/gtag/js?id={gaId}">
+  </script></svelte:head>

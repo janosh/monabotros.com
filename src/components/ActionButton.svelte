@@ -42,7 +42,8 @@
         toggle()
       }}
       class:open
-      style="opacity: {$opacity}; bottom: {(idx + 1) * $yPos}px; width: {size}px; height: {size}px;">
+      style="opacity: {$opacity}; bottom: {(idx + 1) *
+        $yPos}px; width: {size}px; height: {size}px;">
       <span>{title}</span>{icon}
     </button>
   {/each}

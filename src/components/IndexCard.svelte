@@ -7,8 +7,9 @@
 </script>
 
 <div class="item">
-  {#if img}<a href={slug}><img src={img} alt={title} loading="lazy" /></a>{/if}
-  <a href={slug}><h2>{title}</h2></a>
+  {#if img}<a sapper:prefetch href={slug}><img src={img} alt={title} loading="lazy" /></a
+    >{/if}
+  <a sapper:prefetch href={slug}><h2>{title}</h2></a>
   <p>{reduceMeta(date, channel, tag)}</p>
   {#if excerpt}
     <p class="excerpt">
