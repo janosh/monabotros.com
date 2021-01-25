@@ -4,30 +4,27 @@ import polka from 'polka'
 import compression from 'compression'
 import * as sapper from '@sapper/server'
 
-const {
-  PORT,
-  NODE_ENV,
-  GOOGLE_ANALYTICS_ID,
-  ALGOLIA_APP_ID,
-  ALGOLIA_SEARCH_KEY,
-  GOOGLE_MAPS_API_KEY,
-} = process.env
-const dev = NODE_ENV === `development`
+const keys = [
+  `NODE_ENV`,
+  `GOOGLE_ANALYTICS_ID`,
+  `GOOGLE_MAPS_API_KEY`,
+  `ALGOLIA_APP_ID`,
+  `ALGOLIA_SEARCH_KEY`,
+]
 
-polka() // You can also use Express
+const session = Object.fromEntries(keys.map((key) => [key, process.env[key]]))
+
+const dev = session.NODE_ENV === `development`
+
+polka()
   .use(
     compression({ threshold: 0 }),
     sirv(`static`, { dev }),
     sapper.middleware({
-      session: () => ({
-        GOOGLE_ANALYTICS_ID,
-        ALGOLIA_APP_ID,
-        ALGOLIA_SEARCH_KEY,
-        GOOGLE_MAPS_API_KEY,
-      }),
+      session: () => session,
     })
   )
-  .listen(PORT, (err) => {
+  .listen(process.env.PORT, (err) => {
     // eslint-disable-next-line no-console
     if (err) console.log(`error`, err)
   })
