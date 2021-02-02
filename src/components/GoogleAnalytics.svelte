@@ -1,25 +1,24 @@
 <script>
-  // adapted from https://github.com/imbolc/sapper-google-analytics
+  // https://analytics.google.com
   import { stores } from '@sapper/app'
 
-  const { page, session } = stores()
-  const { GOOGLE_ANALYTICS_ID: gaId } = $session
+  const { page } = stores()
 
-  if (typeof window !== `undefined`) {
-    window.dataLayer = window.dataLayer || []
-    window.gtag = function gtag() {
-      window.dataLayer.push(arguments)
-    }
-    window.gtag(`js`, new Date())
-    window.gtag(`config`, gaId, { send_page_view: false })
-  }
   $: if (typeof gtag !== `undefined`) {
-    window.gtag(`config`, gaId, {
-      page_path: $page.path,
-    })
+    window.gtag(`config`, `G-49SR7QQP2N`, { page_path: $page.path })
   }
 </script>
 
-<svelte:head
-  ><script async src="https://googletagmanager.com/gtag/js?id={gaId}">
-  </script></svelte:head>
+<svelte:head>
+  <script async src="https://googletagmanager.com/gtag/js?id=G-49SR7QQP2N"></script>
+  <script>
+    window.dataLayer = window.dataLayer || []
+    function gtag(){
+      dataLayer.push(arguments)
+    }
+
+    gtag('js', new Date())
+
+    gtag('config', 'G-49SR7QQP2N')
+  </script>
+</svelte:head>
