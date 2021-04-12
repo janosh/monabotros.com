@@ -1,8 +1,8 @@
 <script>
-  import articles from 'content/articles.yml'
-  import DetailPage from 'components/DetailPage.svelte'
-  import { stores } from '@sapper/app'
-  const { page } = stores()
+  import { page } from '$app/stores'
+  import articles from './articles.yml'
+  import DetailPage from '../../components/DetailPage.svelte'
+
   const item = articles.find((el) => el.slug === $page.path)
 </script>
 

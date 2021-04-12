@@ -1,7 +1,7 @@
 <script>
-  import Header from 'components/Header.svelte'
-  import Footer from 'components/Footer.svelte'
-  import GoogleAnalytics from 'components/GoogleAnalytics.svelte'
+  import Header from '../components/Header.svelte'
+  import Footer from '../components/Footer.svelte'
+  import GoogleAnalytics from '../components/GoogleAnalytics.svelte'
   import { title } from './stores'
   // image source: https://pixabay.com/photos/1432660
 </script>

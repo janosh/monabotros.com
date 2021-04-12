@@ -5,13 +5,14 @@
 <div class="cards">
   {#each cards as { title, slug, color, items }}
     <div class="card" style="background: {color};">
-      <a sapper:prefetch href={slug}>
+      <a sveltekit:prefetch href={slug}>
         <h2>{title}</h2>
       </a>
       {#each items as { slug, title, img }}
         <div class="item">
-          {#if img}<a sapper:prefetch href={slug}><img src={img} alt={title} /></a>{/if}
-          <a sapper:prefetch href={slug}>
+          {#if img}<a sveltekit:prefetch href={slug}><img src={img} alt={title} /></a
+            >{/if}
+          <a sveltekit:prefetch href={slug}>
             <h3>
               {@html title.split(` `).splice(0, 8).join(` `) + `&hellip;`}
             </h3>

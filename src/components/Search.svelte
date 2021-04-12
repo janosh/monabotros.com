@@ -1,13 +1,11 @@
 <script>
   import { onMount } from 'svelte'
-  import algoliasearch from 'algoliasearch/lite'
-  import { stores } from '@sapper/app'
-  import Search from '@svg-icons/fa-solid/search.svg'
+  import { session } from '$app/stores'
+  import Search from '@svicons/fa-solid/search.svelte'
 
   import SearchHit from './SearchHit.svelte'
   import { onClickOutside } from '../utils/actions'
 
-  const { session } = stores()
   const { ALGOLIA_APP_ID: appId, ALGOLIA_SEARCH_KEY: searchKey } = $session
 
   export let indices = []
@@ -16,8 +14,7 @@
   let hasFocus = false
 
   onMount(() => {
-    client = algoliasearch(appId, searchKey)
-    return () => client.destroy()
+    client = window.algoliasearch(appId, searchKey)
   })
 
   const processResults = (hits) =>
@@ -39,6 +36,11 @@
     }
   }
 </script>
+
+<svelte:head>
+  <script
+    src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js"></script>
+</svelte:head>
 
 <aside use:onClickOutside={() => (hasFocus = false)}>
   <input

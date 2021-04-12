@@ -12,13 +12,11 @@
 [![CI](https://github.com/janosh/monabotros.com/workflows/CI/badge.svg)](https://github.com/janosh/monabotros.com/actions)
 [![License](https://img.shields.io/github/license/janosh/monabotros.com?label=License)](/license)
 ![GitHub repo size](https://img.shields.io/github/repo-size/janosh/monabotros.com?label=Repo+Size)
-[![GitHub last commit](https://img.shields.io/github/last-commit/janosh/monabotros.com?label=Last+Commit)](https://github.com/janosh/monabotros.com/commits/master)
+[![GitHub last commit](https://img.shields.io/github/last-commit/janosh/monabotros.com?label=Last+Commit)](https://github.com/janosh/monabotros.com/commits/main)
 
 </h3>
 
-Portfolio site of journalist Mona Botros.
-
-This site is built with [Svelte](https://github.com/sveltejs/svelte) and [Sapper](https://github.com/sveltejs/sapper).
+Portfolio site of journalist Mona Botros. Built with [SvelteKit](https://github.com/sveltejs/kit).
 
 ## Setup
 

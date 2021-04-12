@@ -7,9 +7,10 @@
 </script>
 
 <div class="item">
-  {#if img}<a sapper:prefetch href={slug}><img src={img} alt={title} loading="lazy" /></a
+  {#if img}<a sveltekit:prefetch href={slug}
+      ><img src={img} alt={title} loading="lazy" /></a
     >{/if}
-  <a sapper:prefetch href={slug}><h2>{title}</h2></a>
+  <a sveltekit:prefetch href={slug}><h2>{title}</h2></a>
   <p>{reduceMeta(date, channel, tag)}</p>
   {#if excerpt}
     <p class="excerpt">

@@ -1,7 +1,7 @@
 <script>
-  import Nav from 'components/Nav.svelte'
-  import ColorMode from 'components/ColorMode.svelte'
-  import Search from 'components/Search.svelte'
+  import Nav from './Nav.svelte'
+  import ColorMode from './ColorMode.svelte'
+  import Search from './Search.svelte'
 </script>
 
 <header>

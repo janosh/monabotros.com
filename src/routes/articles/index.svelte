@@ -1,7 +1,7 @@
 <script>
-  import ButtonFilter from 'components/ButtonFilter.svelte'
-  import IndexCard from 'components/IndexCard.svelte'
-  import articles from 'content/articles.yml'
+  import ButtonFilter from '../../components/ButtonFilter.svelte'
+  import IndexCard from '../../components/IndexCard.svelte'
+  import articles from './articles.yml'
   import { title } from '../stores'
   let publisher
   let publishers = [`Alle`, ...new Set(articles.map((p) => p.publisher))]

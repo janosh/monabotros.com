@@ -1,12 +1,13 @@
 <script>
-  export let data
+  export let hit
   export let clickHandler = () => {}
-  const { title, slug, excerpt, img, date, author } = data
+
+  const { title, slug, excerpt, img, date, author } = hit
 </script>
 
 {#if img}<img src={img} alt={title} />{/if}
 <h3>
-  <a sapper:prefetch href={slug} on:click={clickHandler}>{@html title}</a>
+  <a sveltekit:prefetch href={slug} on:click={clickHandler}>{@html title}</a>
 </h3>
 {#if date}<span>{new Date(date).toLocaleDateString(`de`)}</span>{/if}
 {#if author}<span>{author.name}</span>{/if}

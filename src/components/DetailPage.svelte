@@ -1,7 +1,9 @@
 <script>
   import VideoEmbed from './VideoEmbed.svelte'
   import { reduceMeta } from '../utils'
+
   export let item
+
   const { title, date, img, html, tag, collaborator, channel, videoId, press } = item
 </script>
 

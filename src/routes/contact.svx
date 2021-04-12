@@ -1,5 +1,5 @@
 <script>
-  import MapEmbed from 'components/MapEmbed.svelte'
+  import MapEmbed from '../components/MapEmbed.svelte'
   import { title } from './stores'
 
   $title = `Kontakt`

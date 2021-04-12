@@ -1,21 +1,24 @@
 <script>
-  import Filme from '@svg-icons/material-sharp/movie-filter.svg'
-  import Kontakt from '@svg-icons/material-sharp/alternate-email.svg'
-  import Artikel from '@svg-icons/fa-solid/newspaper.svg'
+  import Filme from '@svicons/material-sharp/movie-filter.svelte'
+  import Kontakt from '@svicons/material-sharp/alternate-email.svelte'
+  import Artikel from '@svicons/fa-solid/newspaper.svelte'
 
-  import links from 'content/nav.yml'
-  import { stores } from '@sapper/app'
-  const { page } = stores()
+  import links from './nav.yml'
+  import { page } from '$app/stores'
 
   const icons = { Filme, Kontakt, Artikel }
 </script>
 
 <nav>
   {#each links as { title, slug }}
-    <a sapper:prefetch aria-current={slug === $page.path ? `page` : undefined} href={slug}
-      ><svelte:component
+    <a
+      sveltekit:prefetch
+      aria-current={slug === $page.path ? `page` : undefined}
+      href={slug}>
+      <svelte:component
         this={icons[title]}
-        style="height: 22px; vertical-align: -2px; padding-right: 4pt;" />{title}</a>
+        style="height: 22px; vertical-align: -2px; padding-right: 4pt;" />
+      {title}</a>
   {/each}
 </nav>
 

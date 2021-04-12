@@ -1,9 +1,9 @@
 <script>
-  import Impressum from '@svg-icons/material-sharp/privacy-tip.svg'
-  import Twitter from '@svg-icons/fa-brands/twitter.svg'
-  import LinkedIn from '@svg-icons/fa-brands/linkedin.svg'
+  import Impressum from '@svicons/material-sharp/privacy-tip.svelte'
+  import Twitter from '@svicons/fa-brands/twitter.svelte'
+  import LinkedIn from '@svicons/fa-brands/linkedin.svelte'
 
-  import social from 'content/social.yml'
+  import social from './social.yml'
 
   social.push({ name: `Impressum`, url: `/imprint` })
 
@@ -14,8 +14,8 @@
   <span>© 2020 Pacific Spotlight – Journalism & Film</span>
   <div>
     {#each social as { name, url }}
-      <a sapper:prefetch href={url}
-        ><svelte:component
+      <a sveltekit:prefetch href={url}>
+        <svelte:component
           this={icons[name]}
           style="height: 20px; vertical-align: -2px;" />
         {name}</a>

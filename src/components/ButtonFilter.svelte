@@ -1,12 +1,12 @@
 <script>
-  import { stores, goto } from '@sapper/app'
+  import { page } from '$app/stores'
+  import { goto } from '$app/navigation'
 
-  export let labels = [],
-    labelName = `label`,
-    init = ``
+  export let labels = []
+  export let labelName = `label`
+  export let init = ``
   export let selected
 
-  const { page } = stores()
   $: selected = $page.query[labelName] || init
   const changeTag = (newLabel) => {
     selected = newLabel

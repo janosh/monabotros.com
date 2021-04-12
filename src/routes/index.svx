@@ -2,8 +2,8 @@
   import VideoEmbed from '../components/VideoEmbed.svelte'
   import Cards from '../components/Cards.svelte'
   import { title } from './stores'
-  import films from 'content/films.yml'
-  import articles from 'content/articles.yml'
+  import films from './films/films.yml'
+  import articles from './articles/articles.yml'
 
   $title = 'Filme. Fakten. Emotionen.'
 

@@ -1,7 +1,7 @@
 <script>
-  import ButtonFilter from 'components/ButtonFilter.svelte'
-  import IndexCard from 'components/IndexCard.svelte'
-  import films from 'content/films.yml'
+  import ButtonFilter from '../../components/ButtonFilter.svelte'
+  import IndexCard from '../../components/IndexCard.svelte'
+  import films from './films.yml'
   import { title } from '../stores'
   let tag
   let tags = [`Alle`, ...new Set(films.map((f) => f.tag))]
