@@ -1,12 +1,11 @@
-require(`dotenv`).config()
-const yaml = require(`js-yaml`)
-const fs = require(`fs`)
-const netlify = require(`@sveltejs/adapter-netlify`)
-const pkg = require(`./package.json`)
-const { mdsvex } = require(`mdsvex`)
-const rollupYaml = require(`@rollup/plugin-yaml`)
-const marked = require(`marked`)
-const { indexAlgolia } = require(`svelte-algolia`)
+import 'dotenv/config'
+import yaml from 'js-yaml'
+import fs from 'fs'
+import adapter from '@sveltejs/adapter-static'
+import { mdsvex } from 'mdsvex'
+import rollupYaml from '@rollup/plugin-yaml'
+import marked from 'marked'
+import { indexAlgolia } from 'svelte-algolia'
 
 const loadAlgoliaItems = (type) => () =>
   yamlTransform(
@@ -83,24 +82,23 @@ function yamlTransform(data, id) {
   }
 }
 
+if (process.env.NODE_ENV !== `development`) {
+  // update Algolia indices on production runs
+  indexAlgolia(algoliaConfig)
+}
+
 /** @type {import('@sveltejs/kit').Config} */
-module.exports = {
+export default {
   extensions: [`.svelte`, `.svx`],
   preprocess: mdsvex(),
   kit: {
-    adapter: netlify(),
+    adapter: adapter(),
 
     // hydrate the #svelte element in src/app.html
     target: `#svelte`,
 
     vite: {
-      plugins: [
-        rollupYaml({ transform: yamlTransform }),
-        process.env.NODE_ENV !== `development` && indexAlgolia(algoliaConfig),
-      ],
-      ssr: {
-        noExternal: Object.keys(pkg.dependencies || {}),
-      },
+      plugins: [rollupYaml({ transform: yamlTransform })],
     },
   },
 }

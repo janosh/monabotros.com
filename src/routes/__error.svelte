@@ -10,7 +10,7 @@
 
 <h1>{status}</h1>
 
-{#if dev && error.stack}
+{#if dev && error?.stack}
   <pre>{error.stack}</pre>
 {/if}
 
