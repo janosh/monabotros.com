@@ -1,6 +1,6 @@
 - title: Schuld ohne Sühne
   slug: schuld
-  img: images/films/suenden-saengerknaben.jpg
+  img: /images/films/suenden-saengerknaben.jpg
   tag: Dokumentation
   channel: SWR
   date: 2019-02-18
@@ -18,7 +18,7 @@
 
 - title: Update Missbrauchsfälle Korntal
   slug: update-korntal
-  img: images/films/Korntal18.png
+  img: /images/films/Korntal18.jpg
   date: 2018-09-30
   channel: SWR
   tag: Dokumentation
@@ -27,7 +27,7 @@
 
 - title: Kinderarbeit im Korntal
   slug: kinderarbeit-korntal
-  img: images/films/kinderarbeit-korntal.png
+  img: /images/films/kinderarbeit-korntal.png
   date: 2018-08-14
   channel: SWR
   tag: Dokumentation
@@ -36,7 +36,7 @@
 
 - title: Die Todesfahrt des ICE 884
   slug: todesfahrt
-  img: images/films/todesfahrt.jpg
+  img: /images/films/todesfahrt.jpg
   channel: ZDF
   date: 1999-06-03
   award: Nominiert für Deutscher Fernsehpreis in Beste Dokumentation/Bester Dokumentarfilm
@@ -61,7 +61,7 @@
 
 - title: Wie viele Flüchtlinge verträgt Deutschland?
   slug: fluechtlinge-deutschland
-  img: images/films/fluechtlinge-deutschland.jpg
+  img: /images/films/fluechtlinge-deutschland.jpg
   channel: ZDF
   date: 2015-11-10
   tag: Dokumentation
@@ -85,7 +85,7 @@
 
 - title: Drohnenkrieg - Tod aus der Luft
   slug: drohnenkrieg
-  img: images/films/drohnenkrieg.jpg
+  img: /images/films/drohnenkrieg.jpg
   channel: ZDF
   date: 2015-07-27
   tag: Dokumentation
@@ -119,7 +119,7 @@
 
 - title: Ein Bild spricht 1000 Worte
   slug: 1000-worte
-  img: images/films/1000-worte.jpg
+  img: /images/films/1000-worte.jpg
   date:
   channel:
   tag: Wissenschaft
@@ -129,7 +129,7 @@
 
 - title: Kaltwasserkorallen - Bedrohte Juwelen der Tiefsee
   slug: kaltwasserkorallen
-  img: images/films/kaltwasserkorallen.jpg
+  img: /images/films/kaltwasserkorallen.jpg
   date: 2010-01-01
   channel: IFM-GEOMAR
   tag: Wissenschaft
@@ -140,7 +140,7 @@
 
 - title: Sünden an den Sängerknaben
   slug: suenden-saengerknaben
-  img: images/films/suenden-saengerknaben.jpg
+  img: /images/films/suenden-saengerknaben.jpg
   date: 2015-01-07
   channel: SWR
   tag: Dokumentation
@@ -166,7 +166,7 @@
 
 - title: Meerwissen von der Tiefsee zur Atmosphäre
   slug: meerwissen-tiefsee
-  img: images/films/meerwissen-tiefsee.jpg
+  img: /images/films/meerwissen-tiefsee.jpg
   date: 2007-01-01
   channel: IFM-GEOMAR
   tag: Wissenschaft
@@ -177,7 +177,7 @@
 
 - title: Auf Tauchfahrt – Wie gesund sind unsere Meere?
   slug: auf-tauchfahrt
-  img: images/films/auf-tauchfahrt.jpg
+  img: /images/films/auf-tauchfahrt.jpg
   date: 2011-11-22
   channel: WDR
   tag: Dokumentation
@@ -186,7 +186,7 @@
 
 - title: Wo das Leben beginnt - Erlebnisse auf einer Geburtsstation
   slug: leben-beginnt
-  img: images/films/leben-beginnt.jpg
+  img: /images/films/leben-beginnt.jpg
   date:
   channel: RTL
   tag: Dokumentation
@@ -196,7 +196,7 @@
 
 - title: Die Seelenfänger - Wie Scientology Menschenleben zerstört
   slug: seelenfaenger
-  img: images/films/seelenfaenger.jpg
+  img: /images/films/seelenfaenger.jpg
   date: 2011-04-01
   channel: SWR
   tag: Dokumentation
@@ -212,7 +212,7 @@
 
 - title: Blueprint for Disaster - The Crash at Eschede
   slug: crash-eschede
-  img: images/films/todesfahrt.jpg
+  img: /images/films/todesfahrt.jpg
   date: 1998-06-03
   channel: DISCOVERY Channel Canada
   tag: Mitarbeit
@@ -221,7 +221,7 @@
 
 - title: Blueprint for disaster - The Inferno of Kaprun
   slug: inferno-kaprun
-  img: images/films/inferno-kaprun.jpg
+  img: /images/films/inferno-kaprun.jpg
   date: 2000-11-11
   channel: DISCOVERY Channel Canada
   tag: Mitarbeit
@@ -230,7 +230,7 @@
 
 - title: Tod im Schnee - Die Jahrhundertlawine von Galtür
   slug: tod-schnee
-  img: images/films/tod-schnee.png
+  img: /images/films/tod-schnee.png
   date: 2000-01-14
   channel: ZDF/Arte
   tag: Dokumentation
@@ -240,7 +240,7 @@
 
 - title: Gesucht wird... - die Schlangenbande
   slug: schlangenbande
-  img: images/films/schlangenbande.png
+  img: /images/films/schlangenbande.png
   date: 1998-01-01
   channel: WDR für die ARD
   tag: Dokumentation
@@ -258,7 +258,7 @@
 
 - title: 50 Jahre Bild - Eine Zeitung bewegt Deutschland
   slug: bild50
-  img: images/films/bild50.jpg
+  img: /images/films/bild50.jpg
   date: 2002-06-07
   channel: ZDF/Arte
   tag: Dokumentation
@@ -282,7 +282,7 @@
 
 - title: Schampus, Koks und schnelle Pferde
   slug: schnelle-pferde
-  img: images/films/schnelle-pferde.jpg
+  img: /images/films/schnelle-pferde.jpg
   date: 2004-12-16
   channel: ZDF/Arte
   tag: Dokumentation
@@ -293,7 +293,7 @@
 
 - title: Die Angst fliegt mit - Flugsicherheit im Abwind
   slug: angst-fliegt
-  img: images/films/angst-fliegt.png
+  img: /images/films/angst-fliegt.png
   date:
   channel: ZDF
   tag: Dokumentation
@@ -311,7 +311,7 @@
 
 - title: Abenteuer Geburt
   slug: abenteuer-geburt
-  img: images/films/abenteuer-geburt.jpg
+  img: /images/films/abenteuer-geburt.jpg
   date:
   channel: NDR
   tag: Dokumentation
@@ -320,7 +320,7 @@
 
 - title: Gesucht wird... - die Dunkle Seite von Scientology
   slug: scientology
-  img: images/films/scientology.jpg
+  img: /images/films/scientology.jpg
   date: 1997-01-01
   channel: ARD (WDR)
   tag: Dokumentation
@@ -339,7 +339,7 @@
 
 - title: Tod eines Junkies - Die Geschichte einer Drogentherapie
   slug: tod-junkie
-  img: images/films/tod-junkie.jpg
+  img: /images/films/tod-junkie.jpg
   date:
   channel: Spiegel TV Reportage
   tag: Dokumentation
@@ -348,7 +348,7 @@
 
 - title: Sexuelle Belästigung
   slug: belaestigung
-  img: images/films/sexuelle-belästigung.jpg
+  img: /images/films/sexuelle-belaestigung.jpg
   date: 2018-01-30
   channel: SWR
   tag: Report Mainz
@@ -360,7 +360,7 @@
 
 - title: Domspatzen neue Vorwürfe
   slug: domspatzen-neu
-  img: images/films/suenden-saengerknaben.jpg
+  img: /images/films/suenden-saengerknaben.jpg
   date: 2018-03-20
   channel: SWR
   tag: Report Mainz
@@ -371,7 +371,7 @@
 
 - title: Bezahlbarer Wohnraum
   slug: bezahlbarer-wohnraum
-  img: images/films/bezahlbarer-wohnraum.png
+  img: /images/films/bezahlbarer-wohnraum.png
   date: 2018-04-10
   channel: SWR
   tag: Report Mainz
@@ -382,7 +382,7 @@
 
 - title: Krankentransporte
   slug: krankentransporte
-  img: images/films/mainz.jpg
+  img: /images/films/mainz.jpg
   date: 2018-06-12
   channel: SWR
   tag: Report Mainz
@@ -392,7 +392,7 @@
 
 - title: Intensivtäter
   slug: intensivtäter
-  img: images/films/mainz.jpg
+  img: /images/films/mainz.jpg
   date: 2018-06-12
   channel: SWR
   tag: Report Mainz
@@ -403,7 +403,7 @@
 
 - title: Kinderarbeit in Korntal
   slug: kinderarbeit-korntal
-  img: images/films/kinderarbeit-korntal.png
+  img: /images/films/kinderarbeit-korntal.png
   date: 2018-08-14
   channel: SWR
   tag: Report Mainz
@@ -414,7 +414,7 @@
 
 - title: Fehlende Organspende
   slug: fehlende-organspende
-  img: images/films/mainz.jpg
+  img: /images/films/mainz.jpg
   date: 2018-08-14
   channel: SWR
   tag: Report Mainz
@@ -425,7 +425,7 @@
 
 - title: Brennende ICEs
   slug: brennende-ices
-  img: images/films/mainz.jpg
+  img: /images/films/mainz.jpg
   date: 2018-11-06
   channel: SWR
   tag: Report Mainz
@@ -435,7 +435,7 @@
 
 - title: Israelische Drohnen
   slug: israelische-drohnen
-  img: images/films/israelische-drohnen.png
+  img: /images/films/israelische-drohnen.png
   date: 2018-11-06
   channel: SWR
   tag: Report Mainz
@@ -446,7 +446,7 @@
 
 - title: Montagspost
   slug: montagspost
-  img: images/films/mainz.jpg
+  img: /images/films/mainz.jpg
   date: 2018-12-18
   channel: SWR
   tag: Report Mainz
@@ -456,7 +456,7 @@
 
 - title: Missbrauchsakten
   slug: missbrauchsakten
-  img: images/films/mainz.jpg
+  img: /images/films/mainz.jpg
   date: 2019-04-09
   channel: SWR
   tag: Report Mainz
@@ -466,7 +466,7 @@
 
 - title: Personalmangel bei der Bahn
   slug: personalmangel-bahn
-  img: images/films/personalmangel-bahn.png
+  img: /images/films/personalmangel-bahn.png
   date: 2019-05-07
   channel: SWR
   tag: Report Mainz
@@ -478,7 +478,7 @@
 
 - title: Lokalanästhetika
   slug: lokalanaaesthetika
-  img: images/films/lokalanaaesthetika.png
+  img: /images/films/lokalanaaesthetika.png
   date: 2019-05-28
   channel: SWR
   tag: Report Mainz
@@ -489,7 +489,7 @@
 
 - title: Der Fall Lübcke
   slug: luebcke
-  img: images/films/luebcke.png
+  img: /images/films/luebcke.png
   date: 2019-06-18
   channel: SWR
   tag: Report Mainz
@@ -500,7 +500,7 @@
 
 - title: Mietstrom
   slug: mietstrom
-  img: images/films/mietstrom.png
+  img: /images/films/mietstrom.png
   date: 2019-08-20
   channel: SWR
   tag: Report Mainz
@@ -511,7 +511,7 @@
 
 - title: Überstunden in der Gastronomie
   slug: ueberstunden-gastronomie
-  img: images/films/ueberstunden-gastronomie.png
+  img: /images/films/ueberstunden-gastronomie.png
   date: 2019-10-01
   channel: SWR
   tag: Report Mainz
@@ -522,7 +522,7 @@
 
 - title: Klimapropheten
   slug: klimapropheten
-  img: images/films/mainz.jpg
+  img: /images/films/mainz.jpg
   date: 2019-10-01
   channel: SWR
   tag: Report Mainz
@@ -532,7 +532,7 @@
 
 - title: Lebensmittelzertifikate
   slug: lebensmittelzertifikate
-  img: images/films/lebensmittelzertifikate.png
+  img: /images/films/lebensmittelzertifikate.png
   date: 2019-11-12
   channel: SWR
   tag: Report Mainz
@@ -543,7 +543,7 @@
 
 - title: Klimasubventionen
   slug: klimasubventionen
-  img: images/films/mainz.jpg
+  img: /images/films/mainz.jpg
   date: 2019-12-03
   channel: SWR
   tag: Report Mainz

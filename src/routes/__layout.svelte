@@ -13,7 +13,7 @@
 <GoogleAnalytics />
 <Header />
 <hgroup>
-  <img src="images/pacific-sunset.jpg" alt="Mountains" />
+  <img src="/images/pacific-sunset.jpg" alt="Mountains" />
   <h1>
     Pacific Spotlight<br />
     <hr />

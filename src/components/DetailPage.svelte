@@ -4,7 +4,7 @@
 
   export let item
 
-  const { title, date, img, html, tag, collaborator, channel, videoId, press } = item
+  $: ({ title, date, img, html, tag, collaborator, channel, videoId, press } = item)
 </script>
 
 <svelte:head>

@@ -1,6 +1,6 @@
 - title: "'Da war die Sache gelaufen' - Der Fall Wulff"
   slug: wulff
-  img: images/articles/wulff.jpg
+  img: /images/articles/wulff.jpg
   date: 2013-06-14
   publisher: Süddeutsche Zeitung
   url: http://monabotros.com/wp-content/uploads/2015/09/Da-war-die-Sache-gelaufen-Süddeutsche-Zeitung-14.06.2013.pdf
@@ -9,7 +9,7 @@
 
 - title: Razzia in US-Südstaaten - Sturm auf die Festung Scientology
   slug: scientology
-  img: images/articles/alexander-jentzsch.jpg
+  img: /images/articles/alexander-jentzsch.jpg
   date: 2013-05-12
   publisher: Spiegel
   url: http://www.spiegel.de/panorama/razzia-bei-scientology-klinik-narconon-a-898725.html
@@ -18,7 +18,7 @@
 
 - title: Der Fall Alexander Jentzsch - Leben und Sterben bei Scientology
   slug: alexander-jentzsch
-  img: images/articles/alexander-jentzsch.jpg
+  img: /images/articles/alexander-jentzsch.jpg
   date: 2012-09-05
   publisher: Spiegel
   url: http://www.spiegel.de/panorama/scientology-praesidentensohn-alexander-jentzsch-gestorben-a-852962.html
@@ -27,7 +27,7 @@
 
 - title: Verborgene Schätze auf Holz - In der Forstbaumschule werden Kleinodien freigelegt
   slug: schaetze-holz
-  img: images/articles/schaetze-holz.jpg
+  img: /images/articles/schaetze-holz.jpg
   date: 2012
   publisher: Kieler Nachrichten
   url: pdf, link defekt
@@ -35,7 +35,7 @@
 
 - title: Hohe Erwartungen, aber auch eine Portion Demut - Enorme Konkurrenz unter den deutschen Reitern um ein Olympia-Ticket
   slug: hohe-erwartungen
-  img: images/articles/hohe_erwartungen.jpg
+  img: /images/articles/hohe_erwartungen.jpg
   date: 2012-04-02
   publisher: Kieler Nachrichten
   url: pdf
@@ -44,7 +44,7 @@
 
 - title: Planetenforschung - Eisfund deutet auf dickere Mars-Atmosphäre hin
   slug: planetenforschung
-  img: images/articles/planetenforschung.jpg
+  img: /images/articles/planetenforschung.jpg
   date: 2011-04-22
   publisher: Spiegel
   url: http://www.spiegel.de/wissenschaft/weltall/planetenforschung-eisfund-deutet-auf-dickere-mars-atmosphaere-hin-a-758311.html
@@ -53,7 +53,7 @@
 
 - title: "'Nach wie vor ein Kavaliersdelikt' - Tierarzt Karl Blobel über Doping im Reitsport"
   slug: pferde-doping
-  img: images/articles/pferde-doping.jpg
+  img: /images/articles/pferde-doping.jpg
   date: 2009-10-01
   publisher: Die Woche
   url: http://monabotros.com/wp-content/uploads/2015/09/Reitsport-Portrait-Blobel.pdf
@@ -61,7 +61,7 @@
 
 - title: Brandermittler - Hightech-Fahndung nach den Feuerteufeln
   slug: brandermittler
-  img: images/articles/brandermittler.jpg
+  img: /images/articles/brandermittler.jpg
   date: 2009-02-12
   publisher: Spiegel
   url: http://www.spiegel.de/wissenschaft/mensch/brandermittler-hightech-fahndung-nach-den-feuerteufeln-a-606928.html
@@ -70,7 +70,7 @@
 
 - title: Mehr Lärm im Reich der Fische
   slug: fisch-laerm
-  img: images/articles/fisch-laerm.jpg
+  img: /images/articles/fisch-laerm.jpg
   date: 2009-01-16
   publisher: Die Welt
   url: https://welt.de/wissenschaft/article3036863/Infernalischer-Laerm-in-den-Weltmeeren.html
@@ -79,7 +79,7 @@
 
 - title: Waldbrände in Kalifornien - Bei Anruf Flucht
   slug: waldbraende
-  img: images/articles/waldbraende.jpg
+  img: /images/articles/waldbraende.jpg
   date: 2009-05-10
   publisher: Spiegel
   url: http://www.spiegel.de/panorama/waldbraende-in-kalifornien-bei-anruf-flucht-a-623907.html
